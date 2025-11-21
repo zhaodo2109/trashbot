@@ -4,7 +4,9 @@ import numpy as np, cv2, time, requests, json, os, gc
 from collections import deque
 
 # -------------------- CONFIG --------------------
-CAMERA_URL = "http://10.0.0.117:8080/video"
+#CAMERA_URL = "http://10.0.0.117:8080/video" #pi5 home
+CAMERA_URL = "http://10.0.0.251:8080/video"  #pi4 home
+
 MODEL_PATH = "/home/cershy/tf-gpu/TACO/ssd_mobilenet_v2_taco_2018_03_29.pb"
 LABELS_PATH = "/home/cershy/tf-gpu/TACO/data/annotations.json"
 
