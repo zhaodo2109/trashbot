@@ -1,8 +1,8 @@
 import requests, time
-
-#SERVER = "http://127.0.0.1:8080/predict"
+#SERVER = "http://10.0.0.241:8080/predict"
 #SERVER = "http://172.20.96.167:8080/predict"
-SERVER = "http://10.15.158.43:8080/predict"
+#SERVER = "http://10.15.158.43:8080/predict"
+SERVER = "http://10.15.141.231:8080/predict"
 
 while True:
     try:

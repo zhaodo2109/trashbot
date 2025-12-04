@@ -1,10 +1,11 @@
 import requests, time, subprocess
 
-SERVER = "http://10.0.0.117:8080/predict"
+SERVER = "http://10.15.139.47:8080/predict"
 
 def run_servo(cmd_list):
+    """Run servo.py with arguments safely."""
     try:
-        subprocess.run(["python3", "servo.py"] + cmd_list, check=True)
+        subprocess.run(["python3", "servo_v3.py"] + cmd_list, check=True)
     except Exception as e:
         print("Servo Error:", e)
 
@@ -18,8 +19,8 @@ while True:
 
         if category == "Recycle":
             print("Recycle detected ? executing recycle sequence")
-            run_servo(["reset", "mid"])
-            run_servo(["pick", "slow"])
+            #run_servo(["reset", "mid"])
+            run_servo(["pick", "mid"])
             run_servo(["dropr", "slow"])
 
         elif category == "Organic":

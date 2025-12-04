@@ -1,0 +1,174 @@
+{
+  "pick": 
+  {
+    "mode": "sequence",
+    "actions": [
+      {
+        "mode": "single",
+        "actions": [
+          ["3", 140]
+        ]
+      },
+      {
+        "mode": "single",
+        "actions": [
+          ["0", 0]
+        ]
+      },
+      {
+        "mode": "parallel",
+        "actions": [
+          ["2", 130],
+          ["1", 70]
+        ]
+      },
+      {
+        "mode": "single",
+        "actions": [
+          ["3", 88]
+        ]
+      }
+    ]
+  },
+
+  "drop": 
+  {
+    "mode": "sequence",
+    "actions": 
+    [
+      {
+        "mode": "single",
+        "actions": [
+          ["3", 88]
+        ]
+      },
+      {
+        "mode": "parallel",
+        "actions": 
+        [
+          ["1", 180],
+          ["2", 70]
+        ]
+      },
+      {
+        "mode": "single",
+        "actions": 
+        [
+          ["0", 180]
+        ]
+      },
+      {
+        "mode": "single",
+        "actions": [
+          ["3", 120]
+        ]
+      }
+    ]
+  },
+
+  "dropr": 
+  {
+    "mode": "sequence",
+    "actions": 
+    [
+      {
+        "mode": "single",
+        "actions": [
+          ["3", 88]
+        ]
+      },
+      {
+        "mode": "parallel",
+        "actions": 
+        [
+          ["1", 180],
+          ["2", 70]
+        ]
+      },
+      {
+        "mode": "single",
+        "actions": 
+        [
+          ["0", 180]
+        ]
+      },
+      {
+        "mode": "single",
+        "actions": [
+          ["3", 120]
+        ]
+      }
+    ]
+  },
+
+  "dropo": 
+  {
+    "mode": "sequence",
+    "actions": 
+    [
+      {
+        "mode": "single",
+        "actions": [
+          ["3", 88]
+        ]
+      },
+      {
+        "mode": "parallel",
+        "actions": 
+        [
+          ["1", 180],
+          ["2", 50]
+        ]
+      },
+      {
+        "mode": "single",
+        "actions": 
+        [
+          ["0", 160]
+        ]
+      },
+      {
+        "mode": "single",
+        "actions": [
+          ["3", 120]
+        ]
+      }
+    ]
+  },
+
+  "dropt": 
+  {
+    "mode": "sequence",
+    "actions": 
+    [
+      {
+        "mode": "single",
+        "actions": [
+          ["3", 88]
+        ]
+      },
+      {
+        "mode": "parallel",
+        "actions": 
+        [
+          ["1", 180],
+          ["2", 70]
+        ]
+      },
+      {
+        "mode": "single",
+        "actions": 
+        [
+          ["0", 160]
+        ]
+      },
+      {
+        "mode": "single",
+        "actions": [
+          ["3", 120]
+        ]
+      }
+    ]
+  }
+}
+
